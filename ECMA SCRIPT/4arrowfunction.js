@@ -24,6 +24,7 @@ return a
 
  const addnumber = (num1,num2) => num1+num2;
  console.log(addnumber(500,500));// 100
+ 
  // if we are are passing 1 armnt so no need () 
  const multi = a => a*5;
- console.log(multi(1000))
+ console.log(multi(1000)) // 5000
