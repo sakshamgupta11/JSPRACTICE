@@ -22,6 +22,7 @@ console.log(Ourstorage.hasOwnProperty(["cabinet"])); // true
 console.log(Ourstorage.hasOwnProperty(["desk1"])); // false
 console.log(Ourstorage.cabinet["top drawer"]["folder 3"]="etc");
 console.log(Ourstorage.cabinet["top drawer"]["folder 3"]) // etc
+
 delete Ourstorage.cabinet["top drawer"]["folder 3"]
-console.log(Ourstorage.cabinet["top drawer"])
+console.log(Ourstorage.cabinet["top drawer"]) // { 'folder 1': 'a file', 'folder 2': 'secrests' }
 
